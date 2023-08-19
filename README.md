@@ -1,7 +1,7 @@
 # Web Development and Designing
 Oasis Infobyte Internship
 # Level 1 all tasks
-There are three tasks.
+There are three tasks
 # Task 1
 Portfolio
 # Task 2
