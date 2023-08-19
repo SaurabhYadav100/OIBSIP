@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <p id="port">PORTFOLIO</p>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="wall">
+  <section class="about" id="about">
+    <h1>About Me</h1>
+    <p><b>Hello, My name is<span id="n"> Saurabh Yadav</span>. I am passionate about<span id="n"> Web developer</span>.</b></p>
+<img id="im" src="photo.jpg">
+<a href="https://drive.google.com/file/d/12cEHhLGeYJUVfaJgV8uP3QV_3jAQ1gXF/view?usp=drivesdk" target="_blank">Download Resume</a>
+  </section>
+  
+  <section class="projects" id="project">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="payment.png" alt="Project 1">
+      <h3>Bank Management System</h3>
+      <p><b>Descriptions:</b><br><br>
+      This project perform certain banking operations.
+      <p id="des">
+      Like: Create A/c, Login, Deposit, Withdraw etc.</p>
+      </p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project-card">
+      <img src="airlines.png" alt="Project 2">
+      <h3>Airlines Management System</h3>
+      <p><b>Descriptions:</b><br><br>
+        This project perform certain airlines operations.
+        <p id="des">
+        Like: Create A/c, Login, Ticket booking etc.</p>
+      </p>
+      <a href="#">View Project</a>
+    </div>
+    </section>
+</div>
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <br>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea name="message" rows="4" required></textarea><br><br>
+
+      <input type="submit" id="sub" value="Submit">
+  </form>
+  </section>
+  <footer>
+    <p>&copy; Copyright 2023. All rights reserved.</p>
+  </footer>
+   </body>
+</html>

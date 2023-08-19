@@ -1,0 +1,116 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li, img, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #f1ebeb;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin:0 2rem ;
+    
+   }
+  
+.about,.projects,.contact{
+    padding: 2rem;
+}
+  .about p {
+    margin-top:1rem;
+    font-size: large;
+  }
+  .about a{
+    display:inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #ffffff;
+        text-decoration:none;
+        border-radius: 5px;
+        margin-right: 5rem;
+
+  }
+  #n{
+    color:red;
+  }
+  #im{
+    margin-left: 55rem;
+    max-width: 20%;
+    border:1px solid pink;
+    border-radius: 150px;
+  }
+  .project-card {
+    border: 1px solid #f8dbdb;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: aqua;
+  }
+  
+  .project-card img {
+    max-width: 50%;
+    margin-left:50rem;
+    }
+  
+  .project-card h3 {
+    margin-top: -20rem;
+  }
+  
+  .project-card p {
+    margin-top: 1rem;
+  }
+  #des{
+    margin-top: 0.5rem;
+  }
+  .project-card a {
+    display: inline-block;
+    background-color: #333;
+    color: #f8f2f2;
+    padding: 0.3rem 0.8rem;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 7rem;
+  }
+  .contact{
+   background-color:rgb(206, 157, 252);
+  }
+#sub{
+  display: inline-block;
+    background-color: #333;
+    color: #f8f2f2;
+    padding: 0.3rem 0.8rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.wall{
+background-color:rgb(248, 174, 223);
+}
+#port{
+  color: gold;
+  margin-right: 36rem;
+  font-family:'Times New Roman', Times, serif;
+  font-size:x-large;
+  font-weight:bold;
+}
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
